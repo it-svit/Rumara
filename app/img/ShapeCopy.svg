@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="40px" viewBox="0 0 20 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная" transform="translate(-20.000000, -1843.000000)" fill-rule="nonzero" fill="#262626">
+            <g id="new-collection/-max-size-1920" transform="translate(0.000000, 1574.000000)">
+                <g id="фото" transform="translate(0.000000, 99.000000)">
+                    <path d="M10.0021053,181.00055 C10.0021053,180.744537 10.1052673,180.488524 10.3094859,180.292515 C10.7200284,179.902495 11.3874232,179.902495 11.7979657,180.292515 L30.0007895,197.585379 L48.2036133,180.292515 C48.6141558,179.902495 49.2815506,179.902495 49.6920931,180.292515 C50.1026356,180.682534 50.1026356,181.316566 49.6920931,181.706585 L30.7439767,199.707485 C30.3334342,200.097505 29.6660394,200.097505 29.2554969,199.707485 L10.3073806,181.706585 C10.1010566,181.510576 10,181.254563 10,180.99855" id="Shape-Copy" transform="translate(30.000000, 190.000000) rotate(90.000000) translate(-30.000000, -190.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

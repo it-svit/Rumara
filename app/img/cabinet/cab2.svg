@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>data copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="data-copy-2" fill="#999999">
+            <g id="location" transform="translate(5.000000, 5.000000)">
+                <path d="M8.5,20 C8.457,20 8.413,19.994 8.37,19.983 C8.152,19.924 8,19.726 8,19.5 L8,12 L0.5,12 C0.274,12 0.076,11.848 0.017,11.63 C-0.042,11.412 0.054,11.181 0.249,11.068 L19.249,0.068 C19.445,-0.045 19.693,-0.013 19.853,0.147 C20.013,0.307 20.046,0.555 19.932,0.751 L8.932,19.751 C8.841,19.908 8.674,20 8.499,20 L8.5,20 Z M2.362,11 L8.5,11 C8.776,11 9,11.224 9,11.5 L9,17.638 L18.128,1.872 L2.362,11 L2.362,11 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

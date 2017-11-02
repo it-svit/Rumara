@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="21px" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="24" font-family=".HiraginoSansGBInterface-W3, .Hiragino Sans GB Interface" font-weight="300">
+        <g id="о-нас" transform="translate(-1351.000000, -24.000000)" fill="#999999">
+            <g id="header/-max-size-1920">
+                <g id="корзина" transform="translate(1351.000000, 10.000000)">
+                    <text id="icon">
+                        <tspan x="0" y="33"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

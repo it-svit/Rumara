@@ -1,0 +1,194 @@
+/*
+ * cabinet
+ * --------------------------------------------------
+ */
+.cabinet
+	&-wrap
+		margin-bottom: 100px
+		margin-top: 70px
+		table
+			width: 100%
+		.btn-default
+			display: inline-block
+		.btn-group
+			text-align: center
+	&-intro
+		width: 260px
+		margin: 70px auto
+		border: 1px solid $light-gray 
+		li
+			text-align: center
+			a
+				padding: 18px 10px
+				display: block
+				font-size: 18px
+				color: $light-gray
+				transition: color 0.3s ease
+			&:not(:last-child)
+				border-bottom: 1px solid $light-gray
+			&:hover
+				border-color: $default
+				a
+					color: $default
+		img
+			display: inline-block
+			vertical-align: middle
+			margin-right: 10px
+
+
+.cabinet-form
+	width: 500px
+	margin: 70px auto
+	p
+		font-size: 18px
+	.form-group
+		margin-bottom: 40px
+	.btn-group	
+		text-align: center
+	label
+		font-size: 18px
+	input
+		height: 44px
+		line-height: 44px
+	*::-webkit-input-placeholder
+		line-height: 44px
+		font-size: 18px
+	*:-moz-placeholder
+		line-height: 44px
+		font-size: 18px
+	*::-moz-placeholder
+		line-height: 44px
+		font-size: 18px
+	*:-ms-input-placeholder
+		line-height: 44px
+		font-size: 18px
+	
+/*
+ * order-list
+ * --------------------------------------------------
+ */
+.order
+	&-list
+		margin: 77px 0
+		font-size: 18px
+		&__item
+			margin-bottom: 40px
+		&__number
+			font-weight: 600
+	&-table
+		width: 100%
+		padding: 20px 40px
+		border: 1px solid #cccccc
+		td
+			padding: 10px 5px
+			&:first-child
+				font-weight: 600
+		&__total
+			text-align: right
+			color: $red
+			font-weight: 600
+			span
+				color: $default
+	&-info
+		display: flex
+		justify-content: space-between
+		padding: 10px 0
+		font-weight: 400
+		&__status
+			color: $light-gray
+			margin: 0
+		a
+			text-decoration: underline
+
+.address
+	&-table
+		padding: 20px 40px
+		border: 1px solid #cccccc
+	&-list
+		&__item
+			margin-bottom: 40px
+	&-edit
+		font-weight: 600
+		text-align: right
+	&-remove
+		font-weight: 600
+		color: $red
+		text-align: right
+
+
+/*
+ * subscrbie
+ * --------------------------------------------------
+ */
+.subscrbie
+	background-color: #f0f0f0
+	text-align: center
+	padding: 30px 0
+	margin-bottom: 30px
+	p
+		font-size: 18px
+		font-weight: 500
+.form-subscrbie
+	width: 700px
+	margin: 0 auto
+	.form-group
+		display: flex
+		margin: 20px 0
+	input[type="email"]
+		width: 80%
+	input[type="submin"]
+		text-indent: 0px
+		margin: 0
+		padding: 0
+		width: 20%
+		font-size: 14px
+
+/*
+ * cabinet enter
+ * --------------------------------------------------
+ */
+.cabinet
+	&-enter
+		display: flex
+		font-size: 18px
+		font-weight: 500	
+		h6
+			font-size: 18px
+			margin-bottom: 42px
+		.register-link
+			margin: 0px 0 20px
+		p
+			margin-bottom: 40px
+		&__item
+			width: 50%
+			padding: 0 100px
+			display: flex
+			flex-direction: column
+			justify-content: space-between
+			&:first-child
+				border-right: 1px solid $default
+			.form-group
+				margin-bottom: 40px
+
+/*
+ * form-registration
+ * --------------------------------------------------
+ */
+
+.form-registration
+	width: 700px
+	margin: 40px auto
+	font-size: 18px
+	.form-group
+		overflow: hidden
+		display: flex
+		align-items: center
+		margin-bottom: 20px
+	label
+			margin-right: 30px
+			width: 30%
+	input[type="submit"]
+		margin-top: 95px
+.register-text
+	font-size: 18px
+	

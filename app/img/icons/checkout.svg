@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>checkout</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="checkout" stroke="#262626" stroke-width="0.5" fill="#262626">
+            <g id="icon" transform="translate(28.000000, 28.000000)">
+                <path d="M22,0 C9.86908497,0 0,9.86908497 0,22 C0,34.130915 9.86908497,44 22,44 C34.130915,44 44,34.130915 44,22 C44,9.86908497 34.130915,0 22,0 Z M22,42.8107778 C10.5254902,42.8107778 1.18922222,33.4745098 1.18922222,22 C1.18922222,10.5254902 10.5254902,1.18922222 22,1.18922222 C33.4745098,1.18922222 42.8107778,10.5254902 42.8107778,22 C42.8107778,33.4745098 33.4745098,42.8107778 22,42.8107778 Z M19.4884052,30.6572876 L9.284,22.7206078 L8.55383007,23.658915 L19.7547778,32.370915 L33.1926797,12.8242026 L32.2127451,12.1511176 L19.4884052,30.6572876 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

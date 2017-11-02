@@ -1,0 +1,473 @@
+@import "libs"
+@import "_base/vars"
+@import "_base/base"
+
+/*
+ * header | Home page
+ * --------------------------------------------------
+ */
+.main-header
+	border-bottom: solid 1px $light-gray
+	&-container
+		padding: 15px 70px
+		height: 70px
+		max-width: 1800px
+		margin: 0 auto
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&__logo
+		width: 160px
+		line-height: 1
+		flex: 1
+		figcaption
+			font-size: 10px
+			text-align: left
+	&__nav
+		flex: 1
+		> ul
+			text-align: center
+			> li
+				display: inline-block
+				&:not(:nth-child(4))
+					margin-right: 25px
+				&.active
+					> a
+						color: $light-gray
+			.hidden-for-mobile
+				display: none
+		.callback-ask
+			color: #fff
+		a
+			color: $default
+			font-weight: 400
+			&:hover
+				color: $light-gray
+	&__controls
+		text-align: right
+		flex: 1
+		li
+			display: inline-block
+			vertical-align: text-top
+			&:not(:last-child)
+				margin-right: 25px
+		a
+			&:hover
+				color: $default
+
+/*.sub-menu*/
+.sub-menu
+	display: none
+	position: absolute
+	background-color: #fff
+	top: 71px
+	width: 1220px
+	height: 337px
+	right: 50%
+	right: 50%	
+	padding: 40px 100px 70px	
+	margin-right: -610px	
+	padding: 40px 100px 70px
+	z-index: 20
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0, 0.5)
+	&-container
+		display: flex
+		justufy-content: space-between
+	&-wrap
+		display: inline-block
+		.header-tel
+			margin-left: 100px
+			li
+				font-weight: 600
+				font-size: 16px
+		h6
+			margin: 0 30px 15px 30px
+			text-align: left
+			color: $light-gray
+			font-weight: 500
+			font-size: 16px
+			border-bottom: 1px solid $light-gray
+			padding-bottom: 10px
+		ul
+			display: inline-block
+			vertical-align: top
+			text-align: left
+			margin: 0 30px
+	li:not(:last-child)
+		margin-bottom: 15px
+
+/* hamburger */
+.hamburger
+	display: none
+	outline: none
+	a
+		display: block
+
+/* mobile-menu(mmenu settings) */
+.mm-menu.mm-offcanvas.mm-bottom, 
+.mm-menu.mm-offcanvas.mm-top
+	width: 50%
+	min-width: 50%
+
+.mm-listview .mm-next:before
+	border: none
+
+
+.mm-menu,
+#mm-blocker
+	top: 72px
+
+#mobile-menu	
+	a
+		color: $default
+		font-size: 15px
+		&:hover
+			color: $light-gray
+	.recall
+		border: solid 1px #262626
+		text-align: center
+		margin: 0 auto
+		color: $default
+		display: block
+		max-height: 40px
+		margin-top: 15px
+
+.social
+	a
+		&:not(:last-child)
+			margin-right: 20px
+		&:hover
+			.fa-invers
+				color: $default
+
+	li
+		display: inline-block
+	.fa-invers
+		color: #fff
+		transition: color 0.3s ease
+	.fb
+		color: $fb
+	.gl
+		color: $gl
+	.vk
+		color: $vk
+	.od
+		color: $od
+	&.mobile-for
+		text-align: center
+	&.desctop-for
+		li
+			&:not(:last-child)
+				margin-right: 10px
+
+
+.callback-header
+	width: 298px
+	height: 44px
+	border: solid 1px $default
+	line-height: 43px
+	text-align: center
+	display: block
+	cursor: pointer
+
+.callback-ask
+	width: 298px
+	height: 44px
+	background-color: $default
+	border: solid 1px $default
+	line-height: 43px
+	text-align: center
+	color: #fff
+	display: block
+	transition: all 0.2s ease
+	cursor: pointer
+	&:hover
+		background-color: #fff
+		color: $default
+
+/*search*/
+.search-overlay
+	display: none
+	position: fixed
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	background-color: rgba(0,0,0, 0.4 )
+	z-index: 9999
+	overflow: hidden
+	#search
+		width: 80%
+		max-width: 1500px
+		margin: 0 auto
+		position: relative
+		top: 100px
+		input
+			text-indent: 50px
+			border: 0
+			height: 60px
+		button
+			background: none
+			border: none
+			position: absolute
+			top: 50%
+			transform: translate(0,-50%)
+			left: 10px
+			cursor: pointer
+		.fa-search
+			color: $light-gray
+
+.close-btn
+	cursor: pointer
+	position: absolute
+	right: 30px
+	top: 50%
+	transform: translate(0,-50%)
+	font-size: 20px
+
+
+/*
+ * page-carousel-top | Home page
+ * --------------------------------------------------
+ */
+.page-carousel-top
+	.item
+		height: 580px
+		background-size: cover
+		background-position: top center
+		background-repeat: no-repeat
+	.owl-dots
+		position: absolute
+		right: 50%
+		transform: translate(50%,0)
+		bottom: 25px
+		.owl-dot
+			width: 19px
+			height: 19px
+			border-radius: 50%
+			border: 1px solid #333
+			display: inline-block
+			margin: 0px 10px
+			transition: background-color 0.2s ease
+			&.active
+				background-color: #333
+
+.clothes-masonry
+	margin-top: 50px
+	&-container
+		display: flex
+	&__item
+		flex: 1
+		&:not(:last-child)
+			margin-right: 10px
+		&.center
+			.clothes-masonry__box
+				height: 802px
+		a
+			display: block
+		h3
+			margin: 0
+			text-align: center
+	&__box
+		height: 396px
+		width: 100%
+		background-size: cover
+		background-position: top center
+		background-repeat: no-repeat
+		margin-bottom: 10px
+		display: flex
+		align-items: center
+		justify-content: center
+
+
+/*
+ * collection | Home page
+ * --------------------------------------------------
+ */
+.collection
+	padding: 85px 0
+	&__item
+		width: 280px
+		img
+			width: 100%
+	&-carousel
+		margin: 40px 0
+	.owl-nav
+		> div
+			position: absolute
+			top: 50%
+			transform: translate(0, -50%)
+			.fa
+				font-size: 40px
+		.owl-prev
+			left: 20px
+		.owl-next
+			right: 20px
+
+
+/*
+ * clothes-cat-wrap | Home page
+ * --------------------------------------------------
+ */
+.clothes-category
+	&-wrap
+		display: flex
+	&__item
+		background-repeat: no-repeat
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: top center
+		flex: 1
+		height: 500px
+		position: relative
+		a
+			display: block
+			height: 100%
+		h6
+			color: #fff
+			bottom: 30px
+			position: absolute
+			font-size: 36px
+			font-weight: 600
+			width: 100%
+			text-align: center
+			padding: 0 4px
+			margin: 0
+
+
+
+/*
+ * about | Home page
+ * --------------------------------------------------
+ */
+.about
+	padding: 70px 0
+	margin: 70px 0 0
+	border-top: solid 1px $light-gray
+	overflow: hidden
+	.fa
+		margin-left: 20px	
+		font-size: 20px
+	.read-more
+		float: right
+
+
+/*
+ * footer | Home page
+ * --------------------------------------------------
+ */
+footer
+	border-top: 3px solid $default
+	padding: 60px 0 0
+
+.footer
+	&-top
+		display: flex
+		justify-content: space-between
+		padding-bottom: 60px
+		&__menu
+			padding-bottom: 40px
+		&__item
+			display: flex
+			justify-content: space-between
+			.callback
+				font-size: 18px
+				font-weight: 600
+				text-decoration: underline
+		h6
+			text-transform: uppercase
+			font-weight: 400
+			font-size: 16px
+			margin-bottom: 30px
+			margin-top: 0
+			color: $light-gray
+	&-menu
+		// flex: 1
+		&:not(:last-child)
+			margin-right: 45px
+		li
+			list-style-type: none
+			color: $light-gray
+			&:not(:last-child)
+				margin-bottom: 20px
+		a:hover
+			color: $default
+	&-tel
+		font-weight: 600
+		li
+			font-size: 24px
+			margin-bottom: 10px
+	&-email
+		font-size: 18px
+		margin-top: 30px
+		li
+			&:not(:last-child)
+				margin-bottom: 20px
+	&-bottom
+		border: 1px solid $gray
+		text-align: right
+		&.page
+			display: flex
+			justify-content: space-between
+			align-items: center
+			.footer-parser,
+			.footer-delivery
+				display: block
+		&__item
+			p
+				margin: 0
+
+.footer-parser,
+.footer-delivery
+	display: none
+
+.footer-delivery
+	text-transform: uppercase
+	font-size: 12px
+
+
+.footer-menu__title
+	.fa
+		display: none
+
+.subscribe
+	margin-right: 50px
+	h6
+		color: $default
+		font-weight: 600
+	p
+		margin-bottom: 5px
+	input[type=email]
+		margin-bottom: 30px
+
+.all-rights
+	font-size: 10px
+	text-align: center
+	border-top: 1px solid $light-gray
+	padding: 10px 0
+	p
+		margin: 0
+
+
+
+
+
+
+
+/*
+ * other pages
+ * --------------------------------------------------
+ */
+@import "_pages/pages-common"
+@import "_pages/single-product"
+@import "_pages/catalog"
+@import "_pages/about"
+@import "_pages/order"
+@import "_pages/delivery"
+@import "_pages/faq"
+@import "_pages/contact"
+@import "_pages/testimonials"
+@import "_pages/cabinet"
+@import "_pages/basket"
+
+@import "media" // Всегда в конце

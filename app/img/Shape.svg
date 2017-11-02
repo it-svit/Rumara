@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="40px" viewBox="0 0 20 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="главная" transform="translate(-1400.000000, -1843.000000)" fill-rule="nonzero" fill="#262626">
+            <g id="new-collection/-max-size-1920" transform="translate(0.000000, 1574.000000)">
+                <g id="фото" transform="translate(0.000000, 99.000000)">
+                    <path d="M1390.00211,181.00055 C1390.00211,180.744537 1390.10527,180.488524 1390.30949,180.292515 C1390.72003,179.902495 1391.38742,179.902495 1391.79797,180.292515 L1410.00079,197.585379 L1428.20361,180.292515 C1428.61416,179.902495 1429.28155,179.902495 1429.69209,180.292515 C1430.10264,180.682534 1430.10264,181.316566 1429.69209,181.706585 L1410.74398,199.707485 C1410.33343,200.097505 1409.66604,200.097505 1409.2555,199.707485 L1390.30738,181.706585 C1390.10106,181.510576 1390,181.254563 1390,180.99855" id="Shape" transform="translate(1410.000000, 190.000000) rotate(-90.000000) translate(-1410.000000, -190.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
